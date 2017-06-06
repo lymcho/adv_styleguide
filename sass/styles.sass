@@ -1,0 +1,206 @@
+//import grids from bulma
+@import "reset.sass"
+@import "../bulma/sass/utilities/_all.sass"
+@import "../bulma/sass/grid/_all.sass"
+
+
+
+// colors
+$orange: #fb9955
+$darkorange: #FD8C3E
+$blue: #317EFC
+$darkblue: #0E68FB
+$textgrey: #434343
+$darkgrey: #9b9b9b
+$mediumgrey: #ededed
+$lightgrey: #f3f3f3
+$bggrey: #fafafa
+$white: #ffff
+// font family, size, weight, line height, letter spacing, transform
+$font-family: 'source sans pro'
+$font-size-xxxl: 48px
+$font-size-xxl: 36px
+$font-size-xl: 28px
+$font-size-l: 18px
+$font-size-m: 14px
+$font-size-s: 12px
+$font-weight-b: 600
+$font-weight-r: 400
+$font-lh-xl: 48px
+$font-lh-m: 24px
+$font-lh-s: 16px
+$font-ls-l: 1px
+$font-ls-m: 0px
+$font-uppercase: uppercase
+//border
+$border-l: 1px solid $mediumgrey
+// padding
+$padding-button: 16px 32px
+$padding-xs: 8px
+$padding-s: 16px
+$padding-l: 24px
+$padding-xl: 32px
+
+// icon
+$icon-size: 16px
+
+//animation
+$transition-time: 0.5s
+
+h1
+ font-family: $font-family
+ font-size: $font-size-xxxl
+ line-height: $font-lh-xl
+ font-weight: $font-weight-b
+
+h2
+ font-family: $font-family
+ font-size: $font-size-xxl
+ font-weight: $font-weight-r
+
+h3
+ font-family: $font-family
+ font-size: $font-size-xl
+ font-weight: $font-weight-b
+
+h4
+ font-family: $font-family
+ font-size: $font-size-l
+ font-weight: $font-weight-b
+
+h5
+ font-family: $font-family
+ font-size: $font-size-m
+ line-height: $font-lh-m
+ text-transform: $font-uppercase
+ font-weight: $font-weight-b
+
+p
+ font-family: $font-family
+ font-size: $font-size-m
+ line-height: $font-lh-s
+ font-weight: $font-weight-r
+ line-height: $font-lh-m
+
+
+
+
+//color
+.swatch
+ height: 80px
+ width: 80px
+ margin: 8px
+
+.swatch-sm
+ height: 16px
+ width: 16px
+ margin: 4px 4px 4px 0px
+
+
+.orange
+ background: $orange
+.blue
+ background: $blue
+.textgrey
+ background: $textgrey
+.darkgrey
+ background: $darkgrey
+.mediumgrey
+ background: $mediumgrey
+.lightgrey
+ background: $lightgrey
+.bggrey
+ background: $bggrey
+
+
+//universal styles
+html
+ padding: 40px 40px
+ font-family: $font-family
+
+hr
+ border: $border-l
+mark
+ background: $lightgrey
+
+
+
+
+.container
+ border: $border-l
+ padding: $padding-xl
+ margin: 8px 0px
+
+
+//cta
+.button
+ font-family: $font-family
+ font-size: $font-size-m
+ padding: $padding-s $padding-xl
+ letter-spacing: $font-ls-l
+ color: $white
+ display: inline-block
+ font-weight: $font-weight-b
+ 
+ 
+.purchase
+ background: $orange  
+ text-decoration: none
+ color: $white
+ &:hover
+  background: $darkorange
+  transition: $transition-time
+  cursor: pointer
+ &:visited
+  color: $white
+
+.soldout
+ background: $mediumgrey 
+ text-decoration: none
+ color: $darkgrey 
+ &:hover
+  cursor: not-allowed
+ 
+.primary
+ background: $blue
+ text-decoration: none
+ color: $white
+ &:hover
+  background: $darkblue
+  transition: $transition-time
+  cursor: pointer
+ &:visited
+
+  color: $white
+
+
+.secondary
+ background: $white
+ letter-spacing: $font-ls-m
+ color: $blue
+ text-decoration: none
+ &:hover
+  color: $darkblue
+  text-decoration: underline
+  transition: $transition-time
+  cursor: pointer
+
+.third
+ background: $white
+ letter-spacing: $font-ls-m
+ color: $textgrey
+ font-weight: $font-weight-r
+ text-decoration: underline
+ &:hover
+  color: $darkblue
+  text-decoration: underline
+  transition: $transition-time
+  cursor: pointer
+
+
+
+
+
+
+
+
