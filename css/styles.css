@@ -790,9 +790,7 @@ br {
   width: 258px;
   transition: 0.3s; }
   .product .image {
-    background: url(https://qa.adverator.com/assets/media/sq/ewll.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #ededed;
     height: 258px; }
   .product .info {
     background: #fff;
@@ -808,10 +806,9 @@ br {
   border: 1px solid #ededed;
   transition: 0.3s; }
   .product-mobile .image {
-    background: url(https://qa.adverator.com/assets/media/sq/ewll.jpg);
-    background-repeat: no-repeat;
-    background-size: 12rem;
-    height: 12rem; }
+    background: #ededed;
+    height: 12rem;
+    width: 12rem; }
   .product-mobile:hover {
     transform: scale(1.01);
     transition: 0.5s;
