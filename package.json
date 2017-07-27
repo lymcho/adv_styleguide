@@ -1,0 +1,19 @@
+{
+  "name": "adv_styleguide",
+  "version": "1.0.0",
+  "description": "adverator styleguide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lymcho/adv_styleguide.git"
+  },
+  "author": "ling zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lymcho/adv_styleguide/issues"
+  },
+  "homepage": "https://github.com/lymcho/adv_styleguide#readme"
+}

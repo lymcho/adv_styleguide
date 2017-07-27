@@ -1,0 +1,117 @@
+
+h1{
+  font-family:source sans pro;
+  font-size:14px;
+  padding:0px;
+  margin:0px;
+  line-height:14px;
+}
+h2{
+  font-family:droid sans;
+  font-size:24px;
+  color:#312efc;
+  padding:0px;
+  margin:0px;
+}
+h3{
+  font-family:source sans pro;
+  font-size:14px;
+  padding:0px;
+  margin:0px;
+  line-height:14px;
+  letter-spacing:1px;
+  color:#fff
+}
+p{
+  font-family:source sans pro;
+  font-size:12px;
+  padding:0px;
+  margin:0px;
+  line-height:14px;
+  color:white;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+.pic {
+  width:249px;
+  height:249px;
+  margin:0px;
+  padding:0px;
+  z-index:0;
+}
+.pic .large  {
+  width:279px;
+  height:279px;
+
+}
+
+.info{
+  z-index:1;
+  margin:0px;
+  width:229px;
+
+  padding:16px 8px;
+
+  
+}
+.card{
+  margin:24px;
+  width:248px;
+  padding:0px;
+  border:1px solid #ededed;
+  position:relative;
+  z-index:-1;
+}
+
+
+.flag{
+  background:#fb9955;
+  padding:4px;
+  width:72px;
+  text-align:center;
+  position:absolute;
+  top:227px;
+  right:0px;
+  z-index:2;
+}
+
+.is-red{
+  background:#F15A22;
+
+}
+.is-blue{
+  background:#312efc;
+}
+.is-yellow{
+  background: #FEC00D;
+}
+.is-purple{
+  background: #8117DE;
+}
+.is-pink{
+  background: #FF578B;
+}
+.is-teal{
+  background: #14AAB4;
+}
+.is-orange{
+  background:#fb9955;
+}
+.is-green{
+  background:#79DA0E;
+}
+.text{
+  color:#fff;
+  padding:4px;
+  text-align:center;
+  position:absolute;
+  top:8px;
+ left:78px;
+  z-index:3;
+}
+
+
+.container{
+  display:flex;
+  flex-flow: row wrap;
+}

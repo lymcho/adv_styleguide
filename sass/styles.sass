@@ -3,46 +3,10 @@
 @import "variables.sass"
 @import "../bulma/sass/utilities/_all.sass"
 @import "../bulma/sass/grid/_all.sass"
-@import "../bulma/sass/elements/form.sass"
 @import "../bulma/sass/elements/icon.sass"
 
 
 
-
-
-h1
- font-family: $font-family
- font-size: $font-size-xxxl
- line-height: $font-lh-xl
- font-weight: $font-weight-b
-
-h2
- font-family: $font-family
- font-size: $font-size-xxl
- font-weight: $font-weight-r
-
-h3
- font-family: $font-family
- font-size: $font-size-xl
- font-weight: $font-weight-b
-
-h4
- font-family: $font-family
- font-size: $font-size-l
- font-weight: $font-weight-b
-
-h5
- font-family: $font-family
- font-size: $font-size-m
- line-height: $font-lh-s
- text-transform: $font-uppercase
- font-weight: $font-weight-b
-
-p
- font-family: $font-family
- font-size: $font-size-m
- line-height: $font-lh-s
- font-weight: $font-weight-r
 
 
 
@@ -67,11 +31,15 @@ html
  padding: 40px 40px
  font-family: $font-family
  color: $textgrey
+ font-size: $base-size
+ background: $bggrey
 
 hr
  border: $border-l
 mark
  background: $lightgrey
+br
+ line-height: 3rem
 
 
  
@@ -81,7 +49,7 @@ mark
  font-family: 'Material Icons'
  font-weight: normal
  font-style: normal
- font-size: $font-size-m
+ font-size: 1.6rem
  display: inline-block
  vertical-align: middle
  padding: 0
@@ -98,42 +66,78 @@ mark
  border: $border-l
  padding: $padding-xl
  margin: 8px 0px
+ background: $white
 
 
 
 //markets pills
 .market
  font-family: $font-family
- font-size: $font-size-m
- line-height: $font-lh-s
+ font-size: 1.4rem
+ line-height: 1.6rem
  margin: $padding-xs $padding-xs $padding-xs 0
  padding: 6px $padding-xs 6px $padding-xs
- border: 1px solid $neutralgrey
+ border: 1px solid $textgrey
  border-radius: 4px
  display: inline-block
  width: auto
  flex-flow: row nowrap
  cursor: pointer
  vertical-align: middle
-  
  &:hover
-  font-color: $textgrey
+  color: $textgrey
   border: 1px solid $textgrey
-  // box-shadow: 0 4px 8px 0 #ededed
+  box-shadow: 2px 2px 0 0 $neutralgrey
   transition: $transition-time
+//icon bigger on hover
+.market:hover .material-icons
+ transform: scale(1.1)
+ transition: 0.5s
 
+//product cards desktop & mobile
+.product
+ border: $border-l
+ width: $productimage-desktop
+ transition: $transition-time*0.6
+ .image
+  background: url(https://qa.adverator.com/assets/media/sq/ewll.jpg)
+  background-repeat: no-repeat
+  background-size: cover 
+  height: $productimage-desktop
+ .info
+  background: $white
+  height: 8rem
+ &:hover
+  transform: scale(1.01)
+  transition: $transition-time 
+  box-shadow: $boxshadow
+.product-mobile
+ width: 32rem
+ height: 12rem
+ border: $border-l
+ transition: $transition-time*0.6
+ .image
+  background: url(https://qa.adverator.com/assets/media/sq/ewll.jpg)
+  background-repeat: no-repeat
+  background-size: 12rem
+  height: 12rem
+ &:hover
+  transform: scale(1.01)
+  transition: $transition-time 
+  box-shadow: $boxshadow
 
+  
 
 
 //cta
 .button
  font-family: $font-family
- font-size: $font-size-m
+ font-size: 1.4rem
  padding: $padding-s $padding-xl
- letter-spacing: $font-ls-l
+ letter-spacing: 0.1rem
  color: $white
  display: inline-block
- font-weight: $font-weight-b
+ font-weight: 600
  
  
 .purchase
@@ -171,7 +175,7 @@ mark
 
 .secondary
  background: $white
- letter-spacing: $font-ls-m
+ letter-spacing: 0.1rem
  color: $blue
  text-decoration: none
  &:hover
@@ -182,9 +186,9 @@ mark
 
 .third
  background: $white
- letter-spacing: $font-ls-m
+ letter-spacing: 0.1rem
  color: $textgrey
- font-weight: $font-weight-r
+ font-weight: 300
  text-decoration: underline
  &:hover
   color: $darkblue
