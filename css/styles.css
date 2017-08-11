@@ -760,7 +760,7 @@ br {
   border: 1px solid #ededed;
   padding: 3.2rem;
   margin: 8px 0px;
-  background: #fff; }
+  background: #fafafa; }
 
 .market {
   font-family: "source sans pro";
@@ -796,9 +796,8 @@ br {
     background: #fff;
     height: 8rem; }
   .product:hover {
-    transform: scale(1.01);
     transition: 0.5s;
-    box-shadow: 0 2px 4px #ededed; }
+    box-shadow: 0 2px 4px darkgrey; }
 
 .product-mobile {
   width: 32rem;
@@ -810,9 +809,8 @@ br {
     height: 12rem;
     width: 12rem; }
   .product-mobile:hover {
-    transform: scale(1.01);
     transition: 0.5s;
-    box-shadow: 0 2px 4px #ededed; }
+    box-shadow: 0 2px 4px darkgrey; }
 
 .button {
   font-family: "source sans pro";
