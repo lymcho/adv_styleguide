@@ -797,7 +797,7 @@ br {
     height: 8rem; }
   .product:hover {
     transition: 0.5s;
-    box-shadow: 0 2px 4px darkgrey; }
+    box-shadow: 0 2px 4px #9b9b9b; }
 
 .product-mobile {
   width: 32rem;
@@ -810,7 +810,7 @@ br {
     width: 12rem; }
   .product-mobile:hover {
     transition: 0.5s;
-    box-shadow: 0 2px 4px darkgrey; }
+    box-shadow: 0 2px 4px #9b9b9b; }
 
 .button {
   font-family: "source sans pro";
